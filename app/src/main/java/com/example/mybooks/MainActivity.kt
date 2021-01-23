@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
                             }
                             rv_books.smoothScrollToPosition(position)
 
-                            showSnackbarMessage("Satu item berhasil diubah")
+                            showSnackbarMessage("Informasi buku berhasil diubah")
                         }
 
                         BookAddUpdateActivity.RESULT_DELETE -> {

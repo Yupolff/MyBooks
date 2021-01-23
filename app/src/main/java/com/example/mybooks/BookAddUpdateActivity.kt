@@ -84,7 +84,7 @@ class BookAddUpdateActivity : AppCompatActivity() , View.OnClickListener {
             val quotes = edt_quotes.text.toString().trim()
 
             if (title.isEmpty()) {
-                edt_title.error = "Field can not be blank"
+                edt_title.error = "Field cannot be blank"
                 return
             }
 
